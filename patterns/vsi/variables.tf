@@ -119,13 +119,13 @@ variable "use_random_cos_suffix" {
 variable "vsi_image_name" {
   description = "VSI image name. Use the IBM Cloud CLI command `ibmcloud is images` to see availabled images."
   type        = string
-  default     = "ibm-ubuntu-18-04-6-minimal-amd64-2"
+  default     = "ibm-zos-2-4-s390x-dev-test-wazi-7"
 }
 
 variable "vsi_instance_profile" {
   description = "VSI image profile. Use the IBM Cloud CLI command `ibmcloud is instance-profiles` to see available image profiles."
   type        = string
-  default     = "cx2-4x8"
+  default     = "mz2-2x16"
 }
 
 variable "vsi_per_subnet" {
@@ -192,7 +192,7 @@ variable "f5_image_name" {
 variable "f5_instance_profile" {
   description = "F5 vsi instance profile. Use the IBM Cloud CLI command `ibmcloud is instance-profiles` to see available image profiles."
   type        = string
-  default     = "cx2-4x8"
+  default     = "mz2-2x16"
 }
 
 variable "hostname" {
@@ -395,13 +395,13 @@ variable "appid_resource_group" {
 variable "teleport_instance_profile" {
   description = "Machine type for Teleport VSI instances. Use the IBM Cloud CLI command `ibmcloud is instance-profiles` to see available image profiles."
   type        = string
-  default     = "cx2-4x8"
+  default     = "mz2-2x16"
 }
 
 variable "teleport_vsi_image_name" {
   description = "Teleport VSI image name. Use the IBM Cloud CLI command `ibmcloud is images` to see availabled images."
   type        = string
-  default     = "ibm-ubuntu-18-04-6-minimal-amd64-2"
+  default     = "ibm-zos-2-4-s390x-dev-test-wazi-7"
 }
 
 variable "teleport_license" {

@@ -150,8 +150,8 @@
     "vsi": [
       {
         "boot_volume_encryption_key_name": "slz-vsi-volume-key",
-        "image_name": "ibm-ubuntu-18-04-6-minimal-amd64-2",
-        "machine_type": "cx2-2x4",
+        "image_name": "ibm-zos-2-4-s390x-dev-test-wazi-7",
+        "machine_type": "mz2-2x16",
         "name": "jump-box",
         "resource_group": "slz-management-rg",
         "enable_floating_ip": true,
